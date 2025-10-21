@@ -1,44 +1,39 @@
 # General information
-name: "@jr-ax/md5"
+name: "@simatic-ax/md5"
 version: 1.0.0
 type: lib
 keywords:
   - library
-author: <Name>
+author: Siemens AG
 # Description will be displayed in the apax extension
-description: <Description for your library>
+description: Library for an MD5 hashing algorithm
 # Targets to be compiled with 'apax build'
 targets:
   - "1500"
   - llvm
-  - plcsim
 # Install settings
 installStrategy: strict
 apaxVersion: 3.2.1
 # Dependencies
 devDependencies:
-  "@ax/sdk": 2504.2.0
+  "@ax/sdk": ^2504.2.0
 dependencies:
-  "@ax/system-strings": 10.0.24
+  "@ax/system-strings": ^10.0.24
 catalogs:
   "@ax/simatic-ax": ^2504.2.0
 
 repository:
   type: git
-  url: https://github.com/jr-ax/md5
+  url: https://github.com/simatic-ax/md5
 
 # Environment variables
 variables:
   APAX_BUILD_ARGS:
     - "--debug" # Generate debug information for target "1500"
-  AXUNIT_TARGET_IP: "192.168.0.12"
 
 # Files, which will be shipped with the library
 files:
-  - src
-
-scripts:
-  publish-package:
-    - apax pack
-    - apax publish --package *.apax.tgz --registry 'https://npm.pkg.github.com/'
-    - rm *.apax.tgz
+  - 'README.md'
+  - 'LICENSE.md'
+  - 'docs'
+  - 'bin'
