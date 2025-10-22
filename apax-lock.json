@@ -1,16 +1,16 @@
 {
-  "name": "@jr-ax/md5",
-  "version": "1.0.0",
+  "name": "@simatic-ax/md5",
+  "version": "0.0.0-placeholder",
   "lockFileVersion": "2",
   "installStrategy": "strict",
   "root": {
-    "name": "@jr-ax/md5",
-    "version": "1.0.0",
+    "name": "@simatic-ax/md5",
+    "version": "0.0.0-placeholder",
     "dependencies": {
-      "@ax/system-strings": "10.0.24"
+      "@ax/system-strings": "^10.0.24"
     },
     "devDependencies": {
-      "@ax/sdk": "2504.2.0"
+      "@ax/sdk": "^2504.2.0"
     },
     "catalogs": {
       "@ax/simatic-ax": "^2504.2.0"
