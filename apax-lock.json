@@ -7,7 +7,7 @@
     "name": "@simatic-ax/md5",
     "version": "0.0.0-placeholder",
     "dependencies": {
-      "@ax/system-strings": "^10.0.24"
+      "@ax/system-strings": "^10.2.7"
     },
     "devDependencies": {
       "@ax/sdk": "^2510.0.0"

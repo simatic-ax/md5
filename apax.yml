@@ -18,7 +18,7 @@ apaxVersion: 3.2.1
 devDependencies:
   "@ax/sdk": ^2510.0.0
 dependencies:
-  "@ax/system-strings": ^10.0.24
+  "@ax/system-strings": ^10.2.7
 catalogs:
   "@ax/simatic-ax": ^2510.0.0
 
