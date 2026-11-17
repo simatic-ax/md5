@@ -1,0 +1,11 @@
+# Makesystem configuration
+# Defines the build configurations for the lib project
+
+MakeConfiguration:
+  - Name: Build
+    Type: lib
+    Targets:
+      - s7
+      - llvm
+    StCompiler:
+      Debug: true # remove, if you do not want to allow debugging of your code
